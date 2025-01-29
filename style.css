@@ -1,0 +1,220 @@
+/* General Styles */
+body {
+    margin:0px;
+
+}
+
+/* Nav Styles */
+nav {
+    background-color: #262626;
+    box-shadow: 0 1px 1px #4f4e4e;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 2%;
+    position: sticky;
+    top:0;
+}
+
+nav p, nav a {
+    color:#f1edee;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #262626;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+}
+
+footer a,i {
+    color:#f1edee;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Splash Section */
+.splash {
+    background-color: #262626;
+    border: solid 50px #262626;
+    height: calc(100vh - 145px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.splash h1 {
+    font-family: 'Trebuchet', sans-serif;
+    color:#f1edee;
+    font-size:50px;
+    margin-bottom:0;
+}
+
+.splash img {
+    border-radius: 50%;
+}
+
+.splash p {
+    font-family: 'Arial', sans-serif;
+    color: #787877;
+}
+
+.tagline {
+    background-color: #262626;
+}
+.tagline p{
+    color:white;
+    font-size: 17px;
+    text-align: center;
+    padding:0;
+}
+
+/* Horizontal Rules */
+hr {
+    background-color: #262626;
+    color:#4f4e4e;
+    margin: 0px;
+    height: 10px;
+}
+
+/* Sections */
+section {
+    background-color: #f1edee;
+}
+
+/* Section Headings */
+section h2 {
+    padding: .5%;
+    color:#262626;
+    background-color: #f1edee;
+    font-family: 'Trebuchet', sans-serif;
+}
+
+/* Paragraph Styles */
+section p {
+    color:#262626;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* link styles */
+section a {
+    text-decoration: none;
+}
+section a:hover {
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    padding-left: 2%;
+    list-style: square;
+    color:#262626;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+dl {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    color:#262626;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1edee;
+    padding:10px;    
+}
+
+dl dt{
+    color:#262626;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    font-family: Arial, Helvetica, sans-serif;
+}
+dl dd{
+    color:#262626;
+    display:grid;
+    grid-template-rows: repeat(2,1fr);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: .1fr 1fr 1fr 1fr;
+    gap:50px
+}
+
+.card {
+    background-color: white;
+    border-top: solid rgb(184, 184, 184) 10px;
+    border-left: solid white 20px;
+    border-right: solid white 20px;
+}
+
+.card img {
+    display: block;
+    margin: auto;
+    padding:10px;
+}
+
+.card h3 {
+    font-family: 'Trebuchet', sans-serif;
+    color: #262626;
+}
+
+/* Contact Page Styles */
+.one-col {
+    background-color:#f1edee
+}   
+
+h1 {
+    font-family: 'Trebuchet', sans-serif;
+    color: #262626;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+form input, form textarea {
+    width: 50%;
+}
+
+form input:focus, form textarea:focus {
+
+}
+
+form button {
+
+    width: 50%;
+    color: #262626;
+    
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
